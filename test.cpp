@@ -1,3 +1,6 @@
 #include <iostream>
 
-void sayTest();
+int main() {
+    std::cout << "Cmake test from idea" << std::endl;
+    return 0;
+}
