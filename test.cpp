@@ -1,6 +1,15 @@
-#include <iostream>
+#include <window.hpp>
+
+class Game: public mhy::Window {
+
+
+public:
+    Game(): mhy::Window(640, 640, "Whirly Woosh"){}
+
+};
 
 int main() {
-    std::cout << "Cmake test from idea" << std::endl;
+    Game g;
+    g.start();
     return 0;
 }
